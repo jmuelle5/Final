@@ -1,4 +1,6 @@
 require 'rails_helper'
+require 'support/contoller_macros'
+require 'devise'
 
 RSpec.feature "Projects", type: :feature do
   context "Create new project" do
